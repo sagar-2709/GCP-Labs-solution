@@ -1,0 +1,9 @@
+export PROJECT_ID=
+
+gcloud services enable language.googleapis.com
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+bq mk --dataset $PROJECT_ID:news_classification_dataset
+
+bq mk --table $PROJECT_ID:news_classification_dataset.article_data article_text:string,category:string,confidence:float
