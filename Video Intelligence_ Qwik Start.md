@@ -1,5 +1,7 @@
+```cmd
 export PROJECT=
-
+```
+```cmd
 gcloud auth list
 gcloud config list project
 gcloud iam service-accounts create quickstart
@@ -21,3 +23,4 @@ curl -s -H 'Content-Type: application/json' \
 curl -s -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer '$(gcloud auth print-access-token)'' \
     'https://videointelligence.googleapis.com/v1/projects/PROJECTS/locations/LOCATIONS/operations/OPERATION_NAME'
+```
