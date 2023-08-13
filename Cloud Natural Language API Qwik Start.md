@@ -1,4 +1,4 @@
-
+```cmd
 
 gcloud auth list
 gcloud config list project
@@ -9,10 +9,10 @@ gcloud iam service-accounts keys create ~/key.json \
   --iam-account my-natlang-sa@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com
 export GOOGLE_APPLICATION_CREDENTIALS="/home/USER/key.json"
 gcloud compute ssh --zone "us-central1-a" "linux-instance" --project "$GOOGLE_CLOUD_PROJECT"
-
+```
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+```cmd
 gcloud ml language analyze-entities --content="Michelangelo Caravaggio, Italian painter, is known for 'The Calling of Saint Matthew'." > result.json
-
+```
