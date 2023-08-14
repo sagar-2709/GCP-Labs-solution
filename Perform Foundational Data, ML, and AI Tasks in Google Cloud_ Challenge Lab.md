@@ -1,8 +1,8 @@
-Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab
+##Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab
 
 
-Task - 1 : Run a simple Dataflow job
-
+#Task - 1 : Run a simple Dataflow job
+```cmd
 bq mk DATASET_NAME
 
 gsutil mb gs://BUCKET_NAME
@@ -13,20 +13,20 @@ gsutil cp gs://cloud-training/gsp323/lab.csv  .
 gsutil cp gs://cloud-training/gsp323/lab.schema .
  
 cat lab.schema
+```
 
-
-Task - 2 : Run a simple Dataproc job
+#Task - 2 : Run a simple Dataproc job
 This has to be done mannually.
 
 
 
-TASK 3 & TASK 4:-
+#TASK 3 & TASK 4:-
 
 
-Create an API key and export as API_KEY variable
+#Create an API key and export as API_KEY variable
 
-
-export API_KEY={Replace with API KEY}
+```cmd
+export API_KEY=
 
 export TASK_3_BUCKET_NAME=
 
@@ -48,10 +48,10 @@ gcloud ml language analyze-entities --content="Old Norse texts portray Odin as o
 
 
 gcloud auth login --no-launch-browser
-
+```
 
 # TASK 4 BUCKET_NAME
-
+```cmd
 gsutil cp result.json $TASK_4_BUCKET_NAME
 
 
@@ -102,7 +102,7 @@ curl -s -H 'Content-Type: application/json' \
 
 
 curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TOKEN" 'https://videointelligence.googleapis.com/v1/operations/OPERATION_FROM_PREVIOUS_REQUEST' > result1.json
-
+```
 
 
 
