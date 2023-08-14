@@ -1,7 +1,7 @@
-##Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab
+## Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab
 
 
-#Task - 1 : Run a simple Dataflow job
+# Task - 1 : Run a simple Dataflow job
 ```cmd
 bq mk DATASET_NAME
 
@@ -15,15 +15,15 @@ gsutil cp gs://cloud-training/gsp323/lab.schema .
 cat lab.schema
 ```
 
-#Task - 2 : Run a simple Dataproc job
+# Task - 2 : Run a simple Dataproc job
 This has to be done mannually.
 
 
 
-#TASK 3 & TASK 4:-
+# TASK 3 & TASK 4:-
 
 
-#Create an API key and export as API_KEY variable
+# Create an API key and export as API_KEY variable
 
 ```cmd
 export API_KEY=
