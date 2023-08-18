@@ -1,24 +1,24 @@
-TASK 2:- 
+## TASK 2:- 
 
 
 Find out how many taxi companies there are in Chicago.
-
+```cmd
 =COUNTUNIQUE(taxi_trips!company)
+```
 
-
-Find the percentage of taxi rides in Chicago that included a tip.
-
+## Find the percentage of taxi rides in Chicago that included a tip.
+```cmd
 =COUNTIF(taxi_trips!tips,">0")
+```
 
-
-Find the total number of trips where the fare was greater than 0.
-
+## Find the total number of trips where the fare was greater than 0.
+```cmd
 =COUNTIF(taxi_trips!fare,">0")
+```
 
 
 
-
-Task 3.
+## Task 3.
 
 * As a pie chart, what forms of payments are people using for their taxi rides?
 
@@ -45,7 +45,7 @@ Select the Showing all items status dropdown.
 
 Click on the Filter by Condition dropdown and select Text contains from the list.
 
-Input mobile in the Value field.
+Input `mobile` in the Value field.
 
 Click OK.
 
