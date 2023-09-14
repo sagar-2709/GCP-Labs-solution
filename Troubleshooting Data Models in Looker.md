@@ -1,4 +1,6 @@
-
+##lOGIN TO lOOKER
+Turn on the Developer mode > Develop > qwiklabs-ecommerce 
+click Three dots on views > create view
 
 ## FILE NAME :- `user_order_lifetime`
 
