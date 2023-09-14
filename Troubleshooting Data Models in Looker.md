@@ -1,9 +1,9 @@
 
 
-FILE NAME :- user_order_lifetime
+## FILE NAME :- `user_order_lifetime`
 
 
-
+```cmd
 view: user_order_lifetime {
   derived_table: {
     sql: SELECT
@@ -41,7 +41,7 @@ view: user_order_lifetime {
     fields: [user_id, lifetime_orders, lifetime_sales]
   }
 }
-
+```
 
 
 
@@ -49,10 +49,10 @@ view: user_order_lifetime {
 
 
 
-FILE NAME :-  users.view
+## FILE NAME :-  users.view
 
 
-
+```cmd
 view: users {
   sql_table_name: `cloud-training-demos.looker_ecomm.users`
     ;;
@@ -158,7 +158,7 @@ view: users {
     drill_fields: [id, last_name, first_name, events.count, order_items.count]
   }
 }
-
+```
 
 
 
@@ -167,9 +167,9 @@ view: users {
 
 
 
-FILE NAME :- training_ecommerce.model
+## FILE NAME :- training_ecommerce.model
 
-
+```cmd
 connection: "bigquery_public_data_looker"
 
 # include all the views
@@ -254,6 +254,16 @@ explore: events {
   }
   
 }
+```
+
+## For Task 3 :- 
+Explore > Order items > click on created file > Users average sale (click arrow for decending order) > Visuasliazation (select - `Table`) 
+row limit `10`
+Click Run > click on setting icon > save as > `as look` 
+Title - `go to task 3 step 8 copy and paste`
+save & click
+
+## CHECK MY PROGRESS 
 
 
 
